@@ -46,7 +46,7 @@ private void Grounded()
         this.grounded = false;
 
     }
-    this.anim.SetBool("jump", !this.grounded);
+    // this.anim.SetBool("jump2", !this.grounded);
 
 }
    private void Move()
@@ -58,10 +58,18 @@ private void Grounded()
        movement.Normalize();
 
        this.transform.position += movement*0.04f;
+    //    this.transform.position += movement;
        this.anim.SetFloat("vertical", verticalAxis);
        this.anim.SetFloat("horizontal",horizontalAxis);
 
    }
+   void OnCollisionEnter(Collision collision) 
+ {
+         if(collision.gameObject.name == "maze")  // or if(gameObject.CompareTag("YourWallTag"))
+         {
+                     rb.velocity = Vector3.zero;
+         }
+ }
 
 
 
