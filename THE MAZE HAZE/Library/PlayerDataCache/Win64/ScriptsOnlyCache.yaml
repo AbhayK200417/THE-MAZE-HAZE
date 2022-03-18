@@ -15,15 +15,16 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -78,35 +79,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2226}
+      Script: {instanceID: 2234}
     - Class: 114
-      Script: {instanceID: 2336}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2436}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2570}
+      Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2600}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 17816}
+      Script: {instanceID: 4642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -147,21 +148,74 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2988}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/YOULOST.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1490}
+    - Class: 114
+      Script: {instanceID: 2060}
+    - Class: 114
+      Script: {instanceID: 2380}
+    - Class: 114
+      Script: {instanceID: 2512}
+    - Class: 114
+      Script: {instanceID: 2694}
+    - Class: 114
+      Script: {instanceID: 2892}
+    - Class: 114
+      Script: {instanceID: 2988}
+    - Class: 114
+      Script: {instanceID: 4020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,21 +254,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 2052}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 4020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -400,6 +454,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: fef5db67b88caf387d3f28fbd775d3da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
   - hash:
       serializedVersion: 2
       Hash: 62824bb9557c7e987502f2fbd2a26819
@@ -964,15 +1024,11 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
-  - hash:
-      serializedVersion: 2
-      Hash: fef5db67b88caf387d3f28fbd775d3da
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Timer
   platform: 19
   scenePathNames:
   - Assets/Scenes/Instructions.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/YOUWON.unity
-  playerPath: C:/Users/vjind/MAZECLONE/THE MAZE HAZE/build and run/THE MAZE HAZE.exe
+  - Assets/Scenes/YOULOST.unity
+  playerPath: D:/THE MAZE HAZE REPO/THE-MAZE-HAZE/THE MAZE HAZE/build and run/THE
+    MAZE HAZE.exe

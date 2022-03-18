@@ -489,8 +489,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "INSTRUCTIONS:-\n1.Controls :- Use Arrow Keys or W/A/S/D Keys to move the
-    player.\n\n2. Target:- To Pass The Maze before the Given Time.\n    If you fails
-    to do so then you loses."
+    player.\n\n2. Target:- To Pass The Maze before the Given Time.\n                 
+    If you fails to do so then you loses."
 --- !u!222 &1066083079
 CanvasRenderer:
   m_ObjectHideFlags: 0
