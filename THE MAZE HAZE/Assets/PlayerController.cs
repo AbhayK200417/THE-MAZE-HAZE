@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     public Animator anim;
-    private Rigidbody rb;
+    public Rigidbody rb;
     public LayerMask layerMask;
     public bool grounded;
     // Start is called before the first frame update
@@ -65,9 +66,10 @@ private void Grounded()
    }
    void OnCollisionEnter(Collision collision) 
  {
-         if(collision.gameObject.name == "maze")  // or if(gameObject.CompareTag("YourWallTag"))
+         if((collision.gameObject.name == "end"))  // or if(gameObject.CompareTag("YourWallTag"))
          {
                      rb.velocity = Vector3.zero;
+                     SceneManager.LoadScene("YOUWON");
          }
  }
 

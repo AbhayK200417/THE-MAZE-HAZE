@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YOUWON.unity
     guid: e56a2b6166aabc647a3361e785c17cff
+  - enabled: 1
+    path: Assets/Scenes/YOULOST.unity
+    guid: 2d2a0527984211a43af663edd4b5fcdd
   m_configObjects: {}
